@@ -1,1 +1,16 @@
 @import './_reset.scss';
+@import './_fonts.scss';
+@import './_colors.scss';
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 10px;
+}
+p{
+font-size: $size;
+font-weight: $large-weight;
+} 
+@import './_mobile.scss';
+@import './_tablet.scss';
+@import './_desktop.scss';
