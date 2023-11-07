@@ -1,15 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACV;;ADHD,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;CACnB;;AACD,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,IAAI;CAClB;;AACD,AAAA,CAAC,CAAA;EACD,SAAS,EELF,MAAM;EFMb,WAAW,EERI,GAAG;CFSjB;;AIZD,MAAM,EAAC,SAAS,EAAE,KAAK;EACnB,AAAA,CAAC,CAAA;IACG,SAAS,EFCF,GAAG;GEAb;;;ACHL,MAAM,EAAC,SAAS,EAAE,KAAK;EACnB,AAAA,CAAC,CAAA;IACG,SAAS,EHCF,GAAG;GGAb;;;ACHL,MAAM,EAAC,SAAS,EAAE,KAAK;EACnB,AAAA,CAAC,CAAA;IACG,SAAS,EJGV,MAAM;IIFL,SAAS,EJAF,GAAG;GICb",
-    "sources": [
-        "../sass/style.scss",
-        "../sass/_reset.scss",
-        "../sass/_fonts.scss",
-        "../sass/_colors.scss",
-        "../sass/_mobile.scss",
-        "../sass/_tablet.scss",
-        "../sass/_desktop.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sources":["../sass/_reset.scss","style.css","../sass/style.scss","../sass/_fonts.scss"],"names":[],"mappings":"AAAA;;;EAGE,8BAAA;UAAA,sBAAA;EACA,UAAA;EACA,SAAA;ACCF;;ACFA;EACI,gBAAA;ADKJ;;ACHA;EACI,eAAA;ADMJ;;ACHA;EACI,iBCRG;AFcP","file":"style.css"}

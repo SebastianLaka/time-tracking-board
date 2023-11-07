@@ -17,25 +17,4 @@ body {
 
 p {
   font-size: 1.8rem;
-  font-weight: 500;
-}
-
-@media (min-width: 280px) {
-  p {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 768px) {
-  p {
-    font-size: 500;
-  }
-}
-
-@media (min-width: 992px) {
-  p {
-    font-size: 1.8rem;
-    font-size: 500;
-  }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
