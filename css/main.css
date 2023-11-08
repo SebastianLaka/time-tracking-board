@@ -12,9 +12,11 @@ html {
 }
 
 body {
+  font-family: "Rubik", sans-serif;
   font-size: 10px;
 }
 
-p {
+.par, .stn {
   font-size: 1.8rem;
-}/*# sourceMappingURL=style.css.map */
+  color: rgba(0, 0, 255, 0.308);
+}/*# sourceMappingURL=main.css.map */

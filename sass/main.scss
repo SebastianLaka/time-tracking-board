@@ -1,0 +1,21 @@
+@use './reset' as *;
+@use './fonts' as *;
+@use './colors' as *; 
+
+@use './mobile' as breakpoint-sm;
+@use './tablet' as breakpoint-tab;
+@use './desktop' as breakpoint-dsktp;
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+}
+
+
+
+
+
+

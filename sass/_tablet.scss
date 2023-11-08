@@ -1,5 +1,12 @@
-@media(min-width: 768px){
+@use './fonts' as *;
+@use './colors' as *; 
+@media (min-width: 768px){
     .par{
-        font-size: $large-weight;
+        color: breakpoint-sm.$green;
+        font-size: $size;
+    }
+    .stn{
+        color: breakpoint-sm.$green;
+        font-size: $size;
     }
 }

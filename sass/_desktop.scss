@@ -1,6 +1,7 @@
+@use './fonts' as *;
+@use './colors' as *; 
 @media(min-width: 992px){
     .par{
-        font-size: $size;
-        font-size: $large-weight;
+        background-color: breakpoint-dsktp.$green;
     }
 }

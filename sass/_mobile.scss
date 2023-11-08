@@ -1,6 +1,11 @@
+@use './fonts' as *;
+@use './colors' as *; 
 @media(min-width: 280px){
     .par{
-        color: $red;
+        color: breakpoint-sm.$green;
         font-size: $size;
+    }
+    .stn{
+        color: breakpoint-sm.$green;
     }
 }
