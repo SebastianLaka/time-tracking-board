@@ -1,12 +1,5 @@
 @use './fonts' as *;
 @use './colors' as *; 
 @media (min-width: 768px){
-    .par{
-        color: $primary-soft-orange;
-        
-    }
-    .stn{
-        color: $primary-light-red;
-        
-    }
+   
 }
