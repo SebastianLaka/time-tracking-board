@@ -2,9 +2,9 @@
 @use './fonts' as *;
 @use './colors' as *; 
 
-@use './mobile' as breakpoint-sm;
-@use './tablet' as breakpoint-tab;
-@use './desktop' as breakpoint-dsktp;
+@use './mobile' as breakpoint-small;
+@use './tablet' as breakpoint-tablet;
+@use './desktop' as breakpoint-desktop;
 
 html{
     font-size: 62.5%;
@@ -12,11 +12,7 @@ html{
 body{
     font-family: 'Rubik', sans-serif;
     font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100svh;
-    background-color: $neuteral-very-dark-blue;
 }
 
 

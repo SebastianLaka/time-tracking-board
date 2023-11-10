@@ -1,5 +1,13 @@
 @use './fonts' as *;
-@use './colors' as *; 
+@use './colors' as *;
+ 
 @media(min-width: 280px){
-  
+  .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $neuteral-very-dark-blue;
+    height: 100svh;
+  }
 }
