@@ -2,11 +2,11 @@
 @use './colors' as *; 
 @media (min-width: 768px){
     .par{
-        color: breakpoint-sm.$green;
-        font-size: $size;
+        color: $primary-soft-orange;
+        
     }
     .stn{
-        color: breakpoint-sm.$green;
-        font-size: $size;
+        color: $primary-light-red;
+        
     }
 }

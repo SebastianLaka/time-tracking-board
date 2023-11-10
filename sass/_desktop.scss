@@ -2,6 +2,6 @@
 @use './colors' as *; 
 @media(min-width: 992px){
     .par{
-        background-color: breakpoint-dsktp.$green;
+        background-color: $primary-soft-orange;
     }
 }

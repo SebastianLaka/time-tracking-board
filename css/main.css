@@ -7,6 +7,27 @@
   margin: 0;
 }
 
+@media (min-width: 280px) {
+  .par {
+    color: hsl(348, 100%, 68%);
+  }
+  .stn {
+    color: hsl(264, 64%, 52%);
+  }
+}
+@media (min-width: 768px) {
+  .par {
+    color: hsl(43, 84%, 65%);
+  }
+  .stn {
+    color: hsl(348, 100%, 68%);
+  }
+}
+@media (min-width: 992px) {
+  .par {
+    background-color: hsl(43, 84%, 65%);
+  }
+}
 html {
   font-size: 62.5%;
 }
@@ -14,9 +35,4 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   font-size: 10px;
-}
-
-.par, .stn {
-  font-size: 1.8rem;
-  color: rgba(0, 0, 255, 0.308);
 }/*# sourceMappingURL=main.css.map */
