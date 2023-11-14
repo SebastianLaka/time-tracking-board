@@ -1,13 +1,19 @@
 @use './fonts' as *;
 @use './colors' as *;
- 
 @media(min-width: 280px){
   .main-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background-color: $neuteral-very-dark-blue;
-    height: 100svh;
+    min-height: 100svh;
+    padding: 4.5em 0;
+    .card-box{
+      background-color: $neuteral-dark-blue;
+      margin: 1em 1.25em;
+      border-radius: .8em;
+      padding: 1em;
+    }
   }
 }

@@ -12,9 +12,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -23,7 +23,14 @@
         -ms-flex-direction: column;
             flex-direction: column;
     background-color: hsl(226, 43%, 10%);
-    height: 100svh;
+    min-height: 100svh;
+    padding: 4.5em 0;
+  }
+  .main-container .card-box {
+    background-color: hsl(235, 46%, 20%);
+    margin: 1em 1.25em;
+    border-radius: 0.8em;
+    padding: 1em;
   }
 }
 html {
