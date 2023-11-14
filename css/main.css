@@ -74,12 +74,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     list-style-type: none;
     padding: 2em 0;
-    margin: 0 1.75em;
   }
   .main-container .box-person .box-person-links__item {
     color: hsl(235, 45%, 61%);

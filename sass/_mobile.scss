@@ -45,10 +45,10 @@
      }
      .box-person-links{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       list-style-type: none;
       padding: 2em 0;
-      margin: 0 1.75em;
+      
       &__item{
         color: $neuteral-desaturated-blue;
         font-size: 1.2rem;
