@@ -20,19 +20,16 @@
       
      .box-about{
       display: flex;
-      justify-content: space-around;
       align-items: center;
       background-color: $primary-blue;
-      padding: 2.5em 3em;
+      padding: 2.25em 1.9em;
       border-radius: .8em;
-      width: 100%;
-
       &__image{
         width: 44px;
         height: 44px;
         border: 2px solid $neuteral-pale-blue;
         border-radius: 50%;
-        margin-right: 1.25em;
+        margin-right: 1.75em;
       }
       .box-info{
         &__report{
@@ -50,7 +47,6 @@
       justify-content: space-around;
       list-style-type: none;
       padding: 2em 0;
-      
       &__item{
         color: $neuteral-desaturated-blue;
         font-size: 1.2rem;
