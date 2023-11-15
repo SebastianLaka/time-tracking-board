@@ -1,7 +1,7 @@
-@use './fonts' as *;
-@use './colors' as *;
-@media(min-width: 280px){
-  .main-container{
+@use "./fonts" as *;
+@use "./colors" as *;
+@media (min-width: 280px) {
+  .main-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,50 +9,67 @@
     background-color: $neuteral-very-dark-blue;
     min-height: 100svh;
     padding: 4.5em 0;
-    .card-box{
+    .card-box {
       background-color: $neuteral-dark-blue;
       margin: 1em 1.25em;
-      border-radius: .8em;
+      border-radius: 0.8em;
     }
-    .box-person{
+    .box-person {
       display: flex;
       flex-direction: column;
-      
-     .box-about{
-      display: flex;
-      align-items: center;
-      background-color: $primary-blue;
-      padding: 2.25em 1.9em;
-      border-radius: .8em;
-      &__image{
-        width: 44px;
-        height: 44px;
-        border: 2px solid $neuteral-pale-blue;
-        border-radius: 50%;
-        margin-right: 1.75em;
-      }
-      .box-info{
-        &__report{
-          color: $neuteral-pale-blue;
+      .box-about {
+        display: flex;
+        align-items: center;
+        background-color: $primary-blue;
+        padding: 2.25em 1.9em;
+        border-radius: 0.8em;
+        &__image {
+          width: 44px;
+          height: 44px;
+          border: 2px solid $neuteral-pale-blue;
+          border-radius: 50%;
+          margin-right: 1.75em;
         }
-        &__person-name{
-          font-size: $primary-size;
-          color: $neuteral-pale-blue;
-          padding: .25em 0 0 0;
+        .box-info {
+          &__report {
+            color: $neuteral-pale-blue;
+          }
+          &__person-name {
+            font-size: $primary-size;
+            color: $neuteral-pale-blue;
+            padding: 0.25em 0 0 0;
+          }
         }
       }
-     }
-     .box-person-links{
-      display: flex;
-      justify-content: space-around;
-      list-style-type: none;
-      padding: 2em 0;
-      &__item{
-        color: $neuteral-desaturated-blue;
-        font-size: 1.2rem;
-        cursor: pointer;
+      .box-person-links {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        padding: 2em 0;
+        &__item {
+          color: $neuteral-desaturated-blue;
+          font-size: 1.2rem;
+          cursor: pointer;
+        }
       }
     }
+    .box-work{
+      display: flex;
+      flex-direction: column;
+      border-radius: 0.8em;
+  
+      &__image-area{
+        background-image: url(../img/icon-work.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 1.5em 0;
+        background-color: $primary-light-red;
+        border-radius: .8em;
+      }
+      .box-work-container{
+        display: flex;
+        justify-content: space-between;
+      }
     }
   }
 }
