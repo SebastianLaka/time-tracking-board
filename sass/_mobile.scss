@@ -17,14 +17,16 @@
     .box-person{
       display: flex;
       flex-direction: column;
-      width: 90%;
+      
      .box-about{
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
       background-color: $primary-blue;
-      padding: 2.5em 0;
+      padding: 2.5em 3em;
       border-radius: .8em;
+      width: 100%;
+
       &__image{
         width: 44px;
         height: 44px;
