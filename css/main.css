@@ -78,6 +78,7 @@
   .main-container .box-person .box-person-links__item {
     color: hsl(235, 45%, 61%);
     font-size: 1.2rem;
+    cursor: pointer;
   }
 }
 html {
