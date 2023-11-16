@@ -29,6 +29,7 @@
   .main-container .card-box {
     background-color: hsl(235, 46%, 20%);
     border-radius: 0.8em;
+    margin: 1em 0;
   }
   .main-container .box-person {
     display: -webkit-box;
