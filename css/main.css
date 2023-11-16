@@ -28,7 +28,6 @@
   }
   .main-container .card-box {
     background-color: hsl(235, 46%, 20%);
-    margin: 1em 1.25em;
     border-radius: 0.8em;
   }
   .main-container .box-person {
@@ -39,6 +38,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 76.5%;
   }
   .main-container .box-person .box-about {
     display: -webkit-box;
@@ -81,30 +81,51 @@
     cursor: pointer;
   }
   .main-container .box-work {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    border-radius: 0.8em;
-  }
-  .main-container .box-work__image-area {
     background-image: url(../img/icon-work.svg);
     background-repeat: no-repeat;
-    background-position: right;
-    padding: 1.5em 0;
+    background-position: 90% -15%;
+    background-size: 23%;
     background-color: hsl(17, 100%, 70%);
-    border-radius: 0.8em;
+    padding-top: 2.5em;
+    width: 76.5%;
   }
   .main-container .box-work .box-work-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 0.8em;
+    width: 100%;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container, .main-container .box-work .box-work-container .box-wrok-info-container-secondary {
+    padding: 2.5em 1.5em;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container__content, .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content {
+    color: white;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container__content:first-child, .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content:first-child {
+    font-size: 1.2rem;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container__content:nth-child(2), .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content:nth-child(2) {
+    font-size: 1.8rem;
+    margin-top: 0.75em;
+    font-weight: 300;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary {
+    text-align: right;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content {
+    color: hsl(236, 100%, 87%);
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content:nth-child(2) {
+    font-size: 1rem;
+    margin-top: 1.5em;
   }
 }
 html {
