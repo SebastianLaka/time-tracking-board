@@ -53,7 +53,7 @@
         }
       }
     }
-    .box-work {
+    .box-work, .box-study {
       background-image: url(../img/icon-work.svg);
       background-repeat: no-repeat;
       background-position: 90% -15%;
@@ -93,6 +93,10 @@
           }
         }
       }
+    }
+    .box-study{
+      background-image: url(../img/icon-play.svg);
+      background-color: $primary-soft-blue;
     }
   }
 }
