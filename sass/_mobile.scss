@@ -53,10 +53,10 @@
         }
       }
     }
-    .box-work, .box-play, .box-study{
+    .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{
       background-image: url(../img/icon-work.svg);
       background-repeat: no-repeat;
-      background-position: 90% -15%;
+      background-position: 95% -15%;
       background-size: 23%;
       background-color: $primary-light-red;
       padding-top: 2.5em;
@@ -101,6 +101,21 @@
     .box-study{
       background-image: url(../img/icon-study.svg);
       background-color: $primary-light-red-second;
+    }
+    .box-exercise{
+      background-image: url(../img/icon-exercise.svg);
+      background-position: 90% 0;
+      background-color: $primary-lime-green;
+    }
+    .box-social{
+      background-image: url(../img/icon-social.svg);
+      background-position: 95% -15%;
+      background-size: 15%;
+      background-color: $primary-violet;
+    }
+    .box-self-care{
+      background-image: url(../img/icon-self-care.svg);
+      background-color: $primary-soft-orange;
     }
   }
 }
