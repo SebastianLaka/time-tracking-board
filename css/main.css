@@ -30,6 +30,7 @@
     background-color: hsl(235, 46%, 20%);
     border-radius: 0.8em;
     margin: 1em 0;
+    width: 215px;
   }
   .main-container .box-person {
     display: -webkit-box;
@@ -39,7 +40,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 76.5%;
   }
   .main-container .box-person .box-about {
     display: -webkit-box;
@@ -88,7 +88,6 @@
     background-size: 23%;
     background-color: hsl(17, 100%, 70%);
     padding-top: 2.5em;
-    width: 76.5%;
   }
   .main-container .box-work .box-work-container, .main-container .box-play .box-work-container, .main-container .box-study .box-work-container, .main-container .box-exercise .box-work-container, .main-container .box-social .box-work-container, .main-container .box-self-care .box-work-container {
     display: -webkit-box;
@@ -102,7 +101,7 @@
             justify-content: space-between;
     background-color: hsl(235, 46%, 20%);
     border-radius: 0.8em;
-    width: 100%;
+    max-width: 100%;
   }
   .main-container .box-work .box-work-container .box-wrok-info-container, .main-container .box-work .box-work-container .box-wrok-info-container-secondary, .main-container .box-play .box-work-container .box-wrok-info-container, .main-container .box-play .box-work-container .box-wrok-info-container-secondary, .main-container .box-study .box-work-container .box-wrok-info-container, .main-container .box-study .box-work-container .box-wrok-info-container-secondary, .main-container .box-exercise .box-work-container .box-wrok-info-container, .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary, .main-container .box-social .box-work-container .box-wrok-info-container, .main-container .box-social .box-work-container .box-wrok-info-container-secondary, .main-container .box-self-care .box-work-container .box-wrok-info-container, .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary {
     padding: 2.5em 1.5em;

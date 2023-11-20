@@ -13,11 +13,11 @@
       background-color: $neuteral-dark-blue;
       border-radius: 0.8em;
       margin: 1em 0;
+      width: 215px;
     }
     .box-person {
       display: flex;
       flex-direction: column;
-      width: 76.5%;
       .box-about {
         display: flex;
         align-items: center;
@@ -61,14 +61,13 @@
       background-size: 23%;
       background-color: $primary-light-red;
       padding-top: 2.5em;
-      width: 76.5%;
       .box-work-container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         background-color: $neuteral-dark-blue;
         border-radius: 0.8em;
-        width: 100%;
+        max-width: 100%;
         .box-wrok-info-container, .box-wrok-info-container-secondary {
           padding: 2.5em 1.5em;
           &__content {
