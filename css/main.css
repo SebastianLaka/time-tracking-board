@@ -224,6 +224,26 @@
     font-size: 1.4rem;
   }
 }
+@media (min-width: 576px) {
+  .main-container .box-person .box-person-links__item {
+    font-size: 1.5rem;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container, .main-container .box-work .box-work-container .box-wrok-info-container-secondary, .main-container .box-play .box-work-container .box-wrok-info-container, .main-container .box-play .box-work-container .box-wrok-info-container-secondary, .main-container .box-study .box-work-container .box-wrok-info-container, .main-container .box-study .box-work-container .box-wrok-info-container-secondary, .main-container .box-exercise .box-work-container .box-wrok-info-container, .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary, .main-container .box-social .box-work-container .box-wrok-info-container, .main-container .box-social .box-work-container .box-wrok-info-container-secondary, .main-container .box-self-care .box-work-container .box-wrok-info-container, .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary {
+    padding: 3.5em 2em;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container__content:first-child, .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-play .box-work-container .box-wrok-info-container__content:first-child, .main-container .box-play .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-study .box-work-container .box-wrok-info-container__content:first-child, .main-container .box-study .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-exercise .box-work-container .box-wrok-info-container__content:first-child, .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-social .box-work-container .box-wrok-info-container__content:first-child, .main-container .box-social .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-self-care .box-work-container .box-wrok-info-container__content:first-child, .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary__content:first-child {
+    font-size: 1.8rem;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container__content:nth-child(2), .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-play .box-work-container .box-wrok-info-container__content:nth-child(2), .main-container .box-play .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-study .box-work-container .box-wrok-info-container__content:nth-child(2), .main-container .box-study .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-exercise .box-work-container .box-wrok-info-container__content:nth-child(2), .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-social .box-work-container .box-wrok-info-container__content:nth-child(2), .main-container .box-social .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-self-care .box-work-container .box-wrok-info-container__content:nth-child(2), .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary__content:nth-child(2) {
+    font-size: 2.4rem;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-play .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-study .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-social .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary__content {
+    color: hsl(236, 100%, 87%);
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-play .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-study .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-social .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary__content:nth-child(2) {
+    font-size: 1.5rem;
+  }
+}
 html {
   font-size: 62.5%;
 }

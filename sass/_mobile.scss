@@ -208,3 +208,37 @@
     }
   }
 }
+@media (min-width: 576px){
+  .main-container{
+    .box-person {
+      .box-person-links {
+        &__item {    
+          font-size: 1.5rem;
+        }
+      }
+    }
+      .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{ 
+        .box-work-container {
+          .box-wrok-info-container, .box-wrok-info-container-secondary {
+            padding: 3.5em 2em;
+            &__content:first-child {
+              font-size: 1.8rem;
+            }
+            &__content:nth-child(2) {
+              font-size: 2.4rem;
+            }
+          }
+          .box-wrok-info-container-secondary{
+            &__content{
+              color: $neuteral-pale-blue;
+            }
+            &__content:nth-child(2){
+              font-size: 1.5rem;
+            }
+          }
+        }
+      
+    }
+  }
+  
+}
