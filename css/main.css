@@ -244,6 +244,132 @@
     font-size: 1.5rem;
   }
 }
+@media (min-width: 992px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 4.5em 2em;
+    height: 100svh;
+  }
+  .main-container .box-person {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    height: 100%;
+    width: 100%;
+  }
+  .main-container .box-person .box-about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    height: 70%;
+    padding: 2.25em 1.5em;
+  }
+  .main-container .box-person .box-about__image {
+    width: 6em;
+    height: 6em;
+    margin: 0;
+  }
+  .main-container .box-person .box-about .box-info {
+    padding-top: 3em;
+  }
+  .main-container .box-person .box-about .box-info__report {
+    font-size: 1.2rem;
+  }
+  .main-container .box-person .box-about .box-info__person-name {
+    font-size: 2.5rem;
+    padding: 0.25em 2em 0 0;
+  }
+  .main-container .box-person .box-person-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    list-style-type: none;
+    padding: 2em 1.5em;
+  }
+  .main-container .box-person .box-person-links__item {
+    color: hsl(235, 45%, 61%);
+    font-size: 1.2rem;
+    margin: 0.5em;
+    cursor: pointer;
+  }
+  .main-container .box-work, .main-container .box-play, .main-container .box-study, .main-container .box-exercise, .main-container .box-social, .main-container .box-self-care {
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .main-container .box-work .box-work-container, .main-container .box-play .box-work-container, .main-container .box-study .box-work-container, .main-container .box-exercise .box-work-container, .main-container .box-social .box-work-container, .main-container .box-self-care .box-work-container {
+    height: 100%;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container,
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary, .main-container .box-play .box-work-container .box-wrok-info-container,
+  .main-container .box-play .box-work-container .box-wrok-info-container-secondary, .main-container .box-study .box-work-container .box-wrok-info-container,
+  .main-container .box-study .box-work-container .box-wrok-info-container-secondary, .main-container .box-exercise .box-work-container .box-wrok-info-container,
+  .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary, .main-container .box-social .box-work-container .box-wrok-info-container,
+  .main-container .box-social .box-work-container .box-wrok-info-container-secondary, .main-container .box-self-care .box-work-container .box-wrok-info-container,
+  .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary {
+    padding: 2.75em 1.5em;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container__content:first-child,
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-play .box-work-container .box-wrok-info-container__content:first-child,
+  .main-container .box-play .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-study .box-work-container .box-wrok-info-container__content:first-child,
+  .main-container .box-study .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-exercise .box-work-container .box-wrok-info-container__content:first-child,
+  .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-social .box-work-container .box-wrok-info-container__content:first-child,
+  .main-container .box-social .box-work-container .box-wrok-info-container-secondary__content:first-child, .main-container .box-self-care .box-work-container .box-wrok-info-container__content:first-child,
+  .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary__content:first-child {
+    font-size: 1.4rem;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container__content:nth-child(2),
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-play .box-work-container .box-wrok-info-container__content:nth-child(2),
+  .main-container .box-play .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-study .box-work-container .box-wrok-info-container__content:nth-child(2),
+  .main-container .box-study .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-exercise .box-work-container .box-wrok-info-container__content:nth-child(2),
+  .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-social .box-work-container .box-wrok-info-container__content:nth-child(2),
+  .main-container .box-social .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-self-care .box-work-container .box-wrok-info-container__content:nth-child(2),
+  .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary__content:nth-child(2) {
+    font-size: 2.1rem;
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-play .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-study .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-social .box-work-container .box-wrok-info-container-secondary__content, .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary__content {
+    color: hsl(236, 100%, 87%);
+  }
+  .main-container .box-work .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-play .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-study .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-exercise .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-social .box-work-container .box-wrok-info-container-secondary__content:nth-child(2), .main-container .box-self-care .box-work-container .box-wrok-info-container-secondary__content:nth-child(2) {
+    font-size: 1.5rem;
+  }
+  .main-container .box-play {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .main-container .box-study {
+    grid-column: 4/5;
+  }
+  .main-container .box-exercise {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .main-container .box-social {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  .main-container .box-self-care {
+    grid-column: 4/5;
+    grid-row: 3/4;
+  }
+}
 html {
   font-size: 62.5%;
 }
