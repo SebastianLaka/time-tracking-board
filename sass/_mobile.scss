@@ -68,6 +68,8 @@
         gap: 1em;
         background-color: $neuteral-dark-blue;
         border-radius: 0.8em;
+        border-bottom-left-radius: .5em;
+        border-bottom-right-radius: .5em;
         padding: 2.5em 1.75em;
         .box-wrok-container {
           &__content {
@@ -124,7 +126,7 @@
   .main-container{
   .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{ 
     .box-work-container {
-      .box-wrok-info-container, .box-wrok-info-container-secondary {
+      .box-wrok-container{
         padding: 2.75em 1.5em;
         &__content:first-child {
           font-size: 1.4rem;
@@ -145,31 +147,7 @@
   }
 }
 }
-@media (min-width: 375px){
-  .main-container{
-  .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{ 
-    .box-work-container {
-      .box-wrok-info-container, .box-wrok-info-container-secondary {
-        padding: 3em 1.5em;
-        &__content:first-child {
-          font-size: 1.6rem;
-        }
-        &__content:nth-child(2) {
-          font-size: 2.2rem;
-        }
-      }
-      .box-wrok-info-container-secondary{
-        &__content{
-          color: $neuteral-pale-blue;
-        }
-        &__content:nth-child(2){
-          font-size: 1.3rem;
-        }
-      }
-    }
-  }
-}
-}
+
 @media (min-width: 425px){
   .main-container{
     .box-person {
