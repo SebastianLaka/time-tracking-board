@@ -167,21 +167,29 @@
   }
 }
 @media (min-width: 425px) {
-  .main-container .box-person .box-about {
-    padding: 3em 1em;
-  }
-  .main-container .box-person .box-about__image {
-    width: 8em;
-    height: 8em;
-    margin: 0 2.5em;
+  .main-container .box-person .box-about .box-info__report {
+    font-size: 1.2rem;
   }
   .main-container .box-person .box-about .box-info__person-name {
     font-size: 2rem;
-    color: hsl(236, 100%, 87%);
-    padding: 0.25em 0 0 0;
   }
   .main-container .box-person .box-person-links__item {
     font-size: 1.4rem;
+  }
+  .main-container .box-work .box-work-container, .main-container .box-play .box-work-container, .main-container .box-study .box-work-container, .main-container .box-exercise .box-work-container, .main-container .box-social .box-work-container, .main-container .box-self-care .box-work-container {
+    padding: 3.25em 1.75em;
+  }
+  .main-container .box-work .box-work-container .box-wrok-container__content, .main-container .box-play .box-work-container .box-wrok-container__content, .main-container .box-study .box-work-container .box-wrok-container__content, .main-container .box-exercise .box-work-container .box-wrok-container__content, .main-container .box-social .box-work-container .box-wrok-container__content, .main-container .box-self-care .box-work-container .box-wrok-container__content {
+    color: white;
+  }
+  .main-container .box-work .box-work-container .box-wrok-container__content:first-child, .main-container .box-play .box-work-container .box-wrok-container__content:first-child, .main-container .box-study .box-work-container .box-wrok-container__content:first-child, .main-container .box-exercise .box-work-container .box-wrok-container__content:first-child, .main-container .box-social .box-work-container .box-wrok-container__content:first-child, .main-container .box-self-care .box-work-container .box-wrok-container__content:first-child {
+    font-size: 1.6rem;
+  }
+  .main-container .box-work .box-work-container .box-wrok-container__content:nth-child(2), .main-container .box-play .box-work-container .box-wrok-container__content:nth-child(2), .main-container .box-study .box-work-container .box-wrok-container__content:nth-child(2), .main-container .box-exercise .box-work-container .box-wrok-container__content:nth-child(2), .main-container .box-social .box-work-container .box-wrok-container__content:nth-child(2), .main-container .box-self-care .box-work-container .box-wrok-container__content:nth-child(2) {
+    font-size: 2rem;
+  }
+  .main-container .box-work .box-work-container .box-wrok-container__content:nth-child(4), .main-container .box-play .box-work-container .box-wrok-container__content:nth-child(4), .main-container .box-study .box-work-container .box-wrok-container__content:nth-child(4), .main-container .box-exercise .box-work-container .box-wrok-container__content:nth-child(4), .main-container .box-social .box-work-container .box-wrok-container__content:nth-child(4), .main-container .box-self-care .box-work-container .box-wrok-container__content:nth-child(4) {
+    font-size: 1.3rem;
   }
 }
 @media (min-width: 576px) {

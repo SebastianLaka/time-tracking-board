@@ -155,23 +155,40 @@
   .main-container{
     .box-person {
       .box-about {
-        padding: 3em 1em;
-        &__image {
-          width: 8em;
-          height: 8em;
-          margin: 0 2.5em;
+        .box-info {
+          &__report {
+            font-size: 1.2rem;
+          }
         }
         .box-info {
           &__person-name {
             font-size: 2rem;
-            color: $neuteral-pale-blue;
-            padding: 0.25em 0 0 0;
           }
         }
       }
       .box-person-links {
         &__item {    
           font-size: 1.4rem;
+        }
+      }
+    }
+    .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{
+      .box-work-container {
+        padding: 3.25em 1.75em;
+        .box-wrok-container {
+          &__content {
+            color: white;
+          }
+          &__content:first-child{
+            font-size: 1.6rem;
+          }
+          &__content:nth-child(2) {
+            font-size: 2rem;
+          }
+          &__content:nth-child(4){
+            font-size: 1.3rem;
+            
+          }
         }
       }
     }
