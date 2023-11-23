@@ -124,54 +124,44 @@
 
 @media (min-width: 325px){
   .main-container{
-  .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{ 
-    .box-work-container {
-      .box-wrok-container{
-        padding: 2.75em 1.5em;
-        &__content:first-child {
-          font-size: 1.4rem;
+    .box-person {
+      .box-about {
+        padding: 3em 1em;
+        &__image {
+          width: 6em;
+          height: 6em;
+          margin: 0 1.5em ;
         }
-        &__content:nth-child(2) {
-          font-size: 2.1rem;
+        .box-info {
+          &__person-name {
+            font-size: 2rem;
+            color: $neuteral-pale-blue;
+            padding: 0.25em 0 0 0;
+          }
         }
       }
-      .box-wrok-info-container-secondary{
-        &__content{
-          color: $neuteral-pale-blue;
-        }
-        &__content:nth-child(2){
-          font-size: 1.2rem;
+      .box-person-links {
+        &__item {
+          color: $neuteral-desaturated-blue;
+          font-size: 1.3rem;
+          cursor: pointer;
         }
       }
     }
-  }
 }
 }
 
 @media (min-width: 425px){
   .main-container{
     .box-person {
-      display: flex;
-      flex-direction: column;
       .box-about {
-        display: flex;
-        align-items: center;
-        background-color: $primary-blue;
         padding: 3em 1em;
-        border-radius: 0.8em;
-
         &__image {
           width: 8em;
           height: 8em;
-          border: 2px solid $neuteral-pale-blue;
-          border-radius: 50%;
           margin: 0 2.5em;
         }
         .box-info {
-          &__report {
-            color: $neuteral-pale-blue;
-            font-size: 1.4rem;
-          }
           &__person-name {
             font-size: 2rem;
             color: $neuteral-pale-blue;
@@ -196,26 +186,6 @@
         }
       }
     }
-      .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{ 
-        .box-work-container {
-          .box-wrok-info-container, .box-wrok-info-container-secondary {
-            padding: 3.5em 2em;
-            &__content:first-child {
-              font-size: 1.8rem;
-            }
-            &__content:nth-child(2) {
-              font-size: 2.4rem;
-            }
-          }
-          .box-wrok-info-container-secondary{
-            &__content{
-              color: $neuteral-pale-blue;
-            }
-            &__content:nth-child(2){
-              font-size: 1.5rem;
-            }
-          }
-        } 
-    }
+      
   }
 }
