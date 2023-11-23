@@ -61,34 +61,35 @@
       background-color: $primary-light-red;
       padding-top: 2.5em;
       .box-work-container {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         align-items: center;
-        justify-content: space-between;
+        gap: 1em;
         background-color: $neuteral-dark-blue;
         border-radius: 0.8em;
-        width: 100%;
-        .box-wrok-info-container, .box-wrok-info-container-secondary {
-          padding: 2.5em 1.5em;
+        padding: 2.5em 1.75em;
+        .box-wrok-container {
           &__content {
             color: white;
           }
-          &__content:first-child {
+          &__content:first-child{
             font-size: 1.2rem;
           }
           &__content:nth-child(2) {
             font-size: $primary-size;
-            margin-top: 0.75em;
             font-weight: $small-weight;
+            grid-column: 1/1;
+            grid-row: 2/3;
           }
-        }
-        .box-wrok-info-container-secondary{
-          text-align: right;
-          &__content{
+          &__content:nth-child(3){
+            justify-self: end;
             color: $neuteral-pale-blue;
           }
-          &__content:nth-child(2){
+          &__content:nth-child(4){
             font-size: 1rem;
-            margin-top: 1.5em;
+            text-align: right;
+            color: $neuteral-pale-blue;
           }
         }
       }
