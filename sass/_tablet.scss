@@ -1,5 +1,14 @@
 @use "./fonts" as *;
 @use "./colors" as *;
 @media (min-width: 768px) {
-  
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        .box-person {
+            grid-column: 1/3;
+  width: 95%;
+        }
+        
+    }
 }
