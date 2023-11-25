@@ -78,6 +78,11 @@
     color: hsl(235, 45%, 61%);
     font-size: 1.2rem;
     cursor: pointer;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .main-container .box-person .box-person-links__item:hover {
+    color: hsl(236, 100%, 87%);
   }
   .main-container .box-work, .main-container .box-play, .main-container .box-study, .main-container .box-exercise, .main-container .box-social, .main-container .box-self-care {
     background-image: url(../img/icon-work.svg);
@@ -217,7 +222,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 2em 2em;
+    padding: 2em;
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
@@ -301,6 +306,9 @@
     height: 100%;
     padding: 2em 1.5em;
     gap: 0.1em;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    cursor: pointer;
   }
   .main-container .box-work .box-work-container .box-wrok-container,
   .main-container .box-play .box-work-container .box-wrok-container,
@@ -327,6 +335,14 @@
     grid-column: 0/1;
     grid-row: 3/4;
     text-align: left;
+  }
+  .main-container .box-work .box-work-container:hover,
+  .main-container .box-play .box-work-container:hover,
+  .main-container .box-study .box-work-container:hover,
+  .main-container .box-exercise .box-work-container:hover,
+  .main-container .box-social .box-work-container:hover,
+  .main-container .box-self-care .box-work-container:hover {
+    background-color: hsl(236, 37%, 33%);
   }
   .main-container .box-play {
     grid-column: 3/4;

@@ -50,6 +50,10 @@
           color: $neuteral-desaturated-blue;
           font-size: 1.2rem;
           cursor: pointer;
+          transition: color .3s;
+        }
+        &__item:hover{
+          color: $neuteral-pale-blue;
         }
       }
     }
