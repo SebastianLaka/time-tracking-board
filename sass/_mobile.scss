@@ -55,6 +55,12 @@
         &__item:hover{
           color: $neuteral-pale-blue;
         }
+        &__item:focus{
+          color: white;
+        }
+      }
+      .change-links-color{
+        color: white;
       }
     }
     .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{

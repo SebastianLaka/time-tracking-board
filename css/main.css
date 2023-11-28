@@ -84,6 +84,12 @@
   .main-container .box-person .box-person-links__item:hover {
     color: hsl(236, 100%, 87%);
   }
+  .main-container .box-person .box-person-links__item:focus {
+    color: white;
+  }
+  .main-container .box-person .change-links-color {
+    color: white;
+  }
   .main-container .box-work, .main-container .box-play, .main-container .box-study, .main-container .box-exercise, .main-container .box-social, .main-container .box-self-care {
     background-image: url(../img/icon-work.svg);
     background-repeat: no-repeat;
