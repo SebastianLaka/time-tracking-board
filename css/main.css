@@ -87,9 +87,6 @@
   .main-container .box-person .box-person-links__item:focus {
     color: white;
   }
-  .main-container .box-person .change-link-color {
-    color: white;
-  }
   .main-container .box-work, .main-container .box-play, .main-container .box-study, .main-container .box-exercise, .main-container .box-social, .main-container .box-self-care {
     background-image: url(../img/icon-work.svg);
     background-repeat: no-repeat;
@@ -218,9 +215,6 @@
     grid-column: 1/3;
     width: 95%;
   }
-  .main-container .box-person .change-link-color {
-    color: white;
-  }
 }
 @media (min-width: 992px) {
   .main-container {
@@ -288,9 +282,6 @@
     font-size: 1.5rem;
     margin: 0.5em;
     cursor: pointer;
-  }
-  .main-container .box-person .change-link-color {
-    color: white;
   }
   .main-container .box-work,
   .main-container .box-play,
