@@ -59,10 +59,11 @@
           color: white;
         }
       }
-      .change-links-color{
+      .change-link-color{
         color: white;
       }
     }
+    
     .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{
       background-image: url(../img/icon-work.svg);
       background-repeat: no-repeat;
@@ -131,7 +132,6 @@
     }
   }
 }
-
 @media (min-width: 325px){
   .main-container{
     .box-person {
