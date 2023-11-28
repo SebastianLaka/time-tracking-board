@@ -1,3 +1,4 @@
 'use strict';
 const liLinks = document.querySelectorAll('.box-person-links__item')
-console.log(liLinks);
+const hoursItems = document.querySelectorAll('.box-wrok-container__content:nth-child(2)')
+console.log(hoursItems);
