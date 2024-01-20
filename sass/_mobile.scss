@@ -17,12 +17,14 @@
     .box-person {
       display: flex;
       flex-direction: column;
+      width: 90%;
       .box-about {
         display: flex;
         align-items: center;
         background-color: $primary-blue;
         padding: 2.25em 2em;
-        border-radius: 0.8em;
+        border-top-right-radius: 0.8em;
+        border-top-left-radius: 0.8em;
         &__image {
           width: 5.6em;
           height: 5.6em;
@@ -46,6 +48,9 @@
         justify-content: space-between;
         list-style-type: none;
         padding: 2em 4em;
+        background-color: $neuteral-dark-blue;
+        border-bottom-right-radius: .8em;
+        border-bottom-left-radius: .8em;
         &__item {
           color: $neuteral-desaturated-blue;
           font-size: 1.2rem;
@@ -59,9 +64,6 @@
           color: white;
         }
       }
-      // .change-link-color{
-      //   color: white;
-      // }
     }
     
     .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{
@@ -71,7 +73,7 @@
       background-size: 23%;
       background-color: $primary-light-red;
       padding-top: 2.5em;
-      .box-work-container {
+      .box-work-container, .box-play-container, .box-study-container, .box-exercise-container, .box-social-container, .box-self-care-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -82,7 +84,7 @@
         border-bottom-left-radius: .5em;
         border-bottom-right-radius: .5em;
         padding: 2.5em 1.75em;
-        .box-wrok-container {
+        .box-wrok-container, .box-play-container, .box-study-container, .box-exercise-container, .box-social-container, .box-self-care-container {
           &__content {
             color: white;
           }
@@ -100,7 +102,7 @@
             color: $neuteral-pale-blue;
           }
           &__content:nth-child(4){
-            font-size: 1rem;
+            font-size: 1.3rem;
             text-align: right;
             color: $neuteral-pale-blue;
           }
@@ -183,7 +185,7 @@
       }
     }
     .box-work, .box-play, .box-study, .box-exercise, .box-social, .box-self-care{
-      .box-work-container {
+      .box-work-container, .box-play-container, .box-study-container, .box-exercise-container, .box-social-container, .box-self-care-container {
         padding: 3.25em 1.75em;
         .box-wrok-container {
           &__content {
